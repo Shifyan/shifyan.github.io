@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shifyan</title>
+    <style>
+        body{
+            background-color: rgb(238, 236, 236);
+        }
+        .section{
+            border-bottom: 1px black solid;
+            padding-bottom: 30px;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        .button{
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            border: 1px solid;
+            border-radius: 8px;
+            padding: 12px;
+            background-color: rgb(98, 98, 197);
+            
+            transition: background-color 0.5s ease ;
+        }
+
+        .button:hover{
+            background-color: rgb(55, 55, 187);    
+        }
+    </style>
 </head>
 <body>
-    <h1>Kunjungi Github</h1>
-    <a href="https://github.com/Shifyan">Klik Disini!</a>
+    <div class="section">
+        <div class="content">
+            <h1 class="header">Kunjungi Github</h1>
+        </div>
+        <div class="content">
+            <a href="https://github.com/Shifyan" class="button" target="_blank">Klik Disini!</a>
+        </div>
+    </div>
+    <div class="section">
+        <div class="content">
+            <h1 class="header">Kunjungi Portofolio</h1>
+        </div>
+        <div class="content">
+            <a href="https://shifyannn.vervcel.app" class="button" target="_blank">Klik Disini!</a>
+        </div>
+    </div>
+
 </body>
 </html>
